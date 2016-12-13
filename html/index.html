@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="HuiMeng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/fix.js"></script>
+    <script src="//cdn.bootcss.com/angular.js/1.5.8/angular.min.js"></script>
+</head>
+<body>
+<div ng-controller="indexController">
+    <header class="header-background-color header-color">
+        <div class="m-l-20px">
+            <a>
+                <img class="fl" src="../img/箭头.png">
+                <div class="fl">会盟</div>
+            </a>
+        </div>
+    </header>
+    <div class="logo-title white-bg">
+        <img class="" src="../img/logo.png">
+        <div class="title">2014年第三届中国文化创意博览会暨科技博览会</div>
+    </div>
+    <div class="button border-tb-box gray-border white-bg">
+        <div class="flex-box">
+            <a href="" ng-click="goNext('signUp.html')">
+                <img src="../img/报名.png">
+                <div>报名</div>
+            </a>
+        </div>
+        <div class="border-lr-box flex-box gray-border">
+            <a href="" ng-click="goNext('scene.html')">
+                <img src="../img/现场.png">
+                <div>现场</div>
+            </a>
+        </div>
+        <div class="flex-box">
+            <a href="" ng-click="goNext('lookBack.html')">
+                <img src="../img/回顾.png">
+                <div>回顾</div>
+            </a>
+        </div>
+    </div>
+    <footer class="white-bg">
+        <div class="">Power by 苏州会盟信息科技</div>
+    </footer>
+</div>
+</body>
+<script>
+    var app = angular.module('HuiMeng', []);
+    app.controller('indexController', function ($scope) {
+        $scope.goNext = function (path) {
+            window.location = path
+        }
+    })
+</script>
+</html>
