@@ -81,22 +81,21 @@ footer {
   border-left-width: 0rem;
   border-right-width: 0rem; }
 
-.logo-title {
+/***index***/
+.index .logo-title {
   height: 17.75rem;
   weight: 100%;
   line-height: 1.3rem; }
-  .logo-title img {
+  .index .logo-title img {
     display: block;
     width: 8rem;
     height: 6rem;
     margin: 0 auto;
     padding: 4em 0rem 1rem; }
-  .logo-title .title {
+  .index .logo-title .title {
     color: #3ba1cc;
     text-align: center; }
-
-/***index***/
-.button {
+.index .button {
   display: flex;
   height: 5rem; }
 

@@ -95,27 +95,28 @@ footer {
   border-right-width: 0rem;
 }
 
-.logo-title {
-  height: 17.75rem;
-  weight: 100%;
-  line-height: 1.3rem;
-  img {
-    display: block;
-    width: 8rem;
-    height: 6rem;
-    margin: 0 auto;
-    padding: 4em 0rem 1rem;
-  }
-  .title {
-    color: rgb(59, 161, 204);
-    text-align:center;
-  }
-}
-
 /***index***/
-.button {
-  display: flex;
-  height: 5rem;
+.index {
+  .logo-title {
+    height: 17.75rem;
+    weight: 100%;
+    line-height: 1.3rem;
+    img {
+      display: block;
+      width: 8rem;
+      height: 6rem;
+      margin: 0 auto;
+      padding: 4em 0rem 1rem;
+    }
+    .title {
+      color: rgb(59, 161, 204);
+      text-align:center;
+    }
+  }
+  .button {
+    display: flex;
+    height: 5rem;
+  }
 }
 
 /***会议详情***/
